@@ -6,6 +6,5 @@ function printUserInfo(name: string, age: number, email?: string): void {
   }
 }
 
-console.log("--------------------task-4-----------------------------");
 printUserInfo("Alice", 30);
 printUserInfo("Bob", 25, "bob@mail.com");

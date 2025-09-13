@@ -1,4 +1,4 @@
-function logStatus(status: Status) {
+function logStatus(status: Status): void {
   if (status === "loading") {
     console.log("Loading...");
   } else if (status === "success") {
@@ -9,5 +9,4 @@ function logStatus(status: Status) {
 }
 
 type Status = "loading" | "success" | "error";
-console.log("--------------------task-5-----------------------------");
 logStatus("loading");
